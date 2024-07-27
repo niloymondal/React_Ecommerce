@@ -67,6 +67,10 @@ background: #FF4141;
     cursor: pointer;
 }
 
+.nav-login-cart button:hover{
+    background-color: aqua;
+}
+
 .nav-cart-count{
     width: 22px;
     height: 22px;

@@ -10,9 +10,11 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="nav-logo">
-        <img src={logo} alt="navlogo" width="50" height="50" />
-        <p>SHOPPER</p>
+      <Link to="/" onClick={() => setMenu("shop")} style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
+       <img src={logo} alt="navlogo" width="50" height="50" />
+       <p>SHOPPER</p></Link>
       </div>
+      
       <ul className="nav-menu">
         <li
           onClick={() => {
