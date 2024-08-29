@@ -4,6 +4,7 @@ import logo from "../Assets/logo.png";
 import cart_icon from "../Assets/cart_icon.png";
 import { Link } from "react-router-dom";
 
+
 const Navbar = () => {
   const [menu, setMenu] = useState("shop");
 
@@ -46,7 +47,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="nav-login-cart">
-        <Link to="/login">
+        <Link to="./login">
           <button>Login</button>
         </Link>
         <Link to="/cart">
